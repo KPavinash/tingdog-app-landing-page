@@ -1,0 +1,168 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* Title Section */
+#title{
+    background-color: #ff4c68;
+    color: azure;
+    text-align: left;
+}
+
+.title-text{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15% ;
+}
+
+/* Nav Bar */
+.navbar-brand{
+    color: azure;
+    font-family: 'Ubuntu', sans-serif ;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.nav-link{
+    color: azure;
+    font-size: 1.2rem;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 1.5rem;
+}
+/* -------!------ */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    width: 25%;
+    transform: rotate(25deg); 
+    right: 30%;
+    position: absolute;
+}
+
+
+/* Feature Section */
+
+.feature-title-text{
+    margin-top: 5%;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+#features{
+    background-color: #fff;
+    position: relative;
+}
+.feature-image{
+    color: #ef8172;
+    font-size: 3.5rem;
+}
+
+.feature-image:hover{
+    color: #ff4c68;
+}
+
+
+
+.feature-content{
+    color: #8f8f8f;
+    font-size: 1.3rem;
+
+}
+.feature-div{
+    padding-top: 10% ;
+}
+
+/* testimonials Section */
+#testimonials{
+    background-color:  #ef8172;
+    color: #fff;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 10% ;
+    margin: 20px;
+}
+
+/* Press Section */
+#press{
+    background-color:  #ef8172; 
+    padding-bottom: 5% ;
+}
+.press-image{
+    width: 15%  ;
+    margin: 20px ;
+}
+/* Carousel */
+.carousel-item{
+   padding: 7% 15%;
+}
+
+/* Pricing Section */
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.pricing-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.card{
+    padding-bottom: 5%;
+}
+
+
+/* call to action - Section*/
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 5% 15%;
+}
+
+
+/* Footer Section*/
+#footer{
+    background-color: rgb(219, 211, 211) ;
+    padding: 5% 10% 2%;
+}
+#footer p{
+    color: #524c4d;
+}
+#footer *{
+    padding: 10px;
+}
+ a{
+     text-decoration: none;
+}
+
+/* Media Query */
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+ }
